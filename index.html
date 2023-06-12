@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Without this meta code responsive design will not work for mobile phones and tablet -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="images/myphoto.png" />
+    <title>Ritesh | Web Developer</title>
+
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- box icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- box icons-->
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!-- --------------------------------------------- -->
+
+    <!-- Header Section-->
+    <header class="header">
+      <a href="#" class="logo">Ritesh</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">Education</a>
+        <a href="#services">Skills</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#testimonial">Experiance</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- --------------------------------------------- -->
+
+    <!-- home section -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Ritesh Thakare</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          I'm a Information Technology(IT) Branch Student from the Indian
+          Institute of Information Technology,Gwalior. I'm passionate about
+          learning new things in Tech field and Keeping myself updated with
+          rapidly changing Tech world.
+        </p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/riteshthakare1191/" target="_blank"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://twitter.com/ritesh1191" target="_blank"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/riteshthakare1191/?hl=en"
+            target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/ritesh-thakare-715aab223/"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+        <a href="Resume.pdf" class="btn" download="Ritesh Thakare | Resume"
+          >Download CV</a
+        >
+      </div>
+
+      <div class="home-img">
+        <img src="images/myphoto.png" alt="" />
+      </div>
+    </section>
+
+    <!--
+     ----------------------------------------- -->
+
+    <!-- section about -->
+    <section class="about" id="about">
+      <h2 class="heading">About <span>Education</span></h2>
+      <!-- <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer!</h3>
+        <p>
+          I'm a Frontend developer, with good command on styling a website with
+          CSS.I also have good problem solving ability and have solved lots of
+          DSA questions on many online platforms like GFG, Leetcode , etc.
+        </p>
+        <a href="#services" class="btn">Read More</a>
+      </div> -->
+
+      <!--
+     education section -->
+      <div class="container">
+        <div class="timeline">
+          <ul>
+            <li>
+              <div class="timeline-content">
+                <h1>Secondary 10th(2019)</h1>
+                <p>
+                  I completed my 10th in 2019 from Maharashtra Vidyalaya,Barshi
+                  and secured 94% in 10th Board exams.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+                <h1>Higher secondary 12th(2021)</h1>
+                <p>
+                  I completed my 12th in 2021 from A.D.Joshi Junior
+                  College,Solapur and secured 97% in 12th Board exams.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-content">
+                <h1>BTech at IIIT Gwalior(2021-2026)</h1>
+                <p>
+                  I am doing my Btech & Mtech in Information Technology at
+                  Indian Institute of Information Technology,Gwalior from 2021
+                  to 2026.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------- -->
+
+    <!-- services section -->
+
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Developement</h3>
+          <p>
+            I am a Full stack MERN Web-Developer and skilled in frontend with
+            good knowledge of React.js and for backend with Node.js, Express.js
+            and Mongo-DB. I have done lots of Full stack projects using above
+            mentioned Tech stack.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxl-flutter"></i>
+          <h3>Anderoid Developement</h3>
+          <p>
+            I am doing Anderoid Developement using Flutter where I came across a
+            completely new Language Dart.With Flutter we can do Hybrid-App
+            developement that is we can make app for ios as well as anderoid
+            users simulteneously
+          </p>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-data"></i>
+          <h3>Blockchain</h3>
+          <p>
+            I have not started Bloackchain developement yet but in future I will
+            absolutely be doing some work in this area beacause of Bloackchain's
+            phenominal features like Decentralization, Hash encrypting, etc.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------- -->
+
+    <!-- Portfolio section -->
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/portfolio1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Omnifood</h4>
+            <p>
+              This is a Website developed for Ordering food Online.It is a
+              frontend Project developed using HTML,CSS and JS only.
+            </p>
+            <a
+              href="https://ritesh1191.github.io/Omnifood-Project/"
+              target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/portfolio2.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Omnifood</h4>
+            <p>
+              This is a Website developed for Ordering food Online.It is a
+              frontend Project developed using HTML,CSS and JS only.
+            </p>
+            <a href="" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/portfolio3.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Omnifood</h4>
+            <p>
+              This is a Website developed for Ordering food Online.It is a
+              frontend Project developed using HTML,CSS and JS only.
+            </p>
+            <a href="" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/portfolio4.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Omnifood</h4>
+            <p>
+              This is a Website developed for Ordering food Online.It is a
+              frontend Project developed using HTML,CSS and JS only.
+            </p>
+            <a href="" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/portfolio5.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Omnifood</h4>
+            <p>
+              This is a Website developed for Ordering food Online.It is a
+              frontend Project developed using HTML,CSS and JS only.
+            </p>
+            <a href="" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/portfolio6.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Omnifood</h4>
+            <p>
+              This is a Website developed for Ordering food Online.It is a
+              frontend Project developed using HTML,CSS and JS only.
+            </p>
+            <a href="" target="_blank"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------- -->
+
+    <!-- Experiance section -->
+    <section class="testimonial" id="testimonial">
+      <div class="testimonial-container">
+        <h2 class="heading">My <span>Experiance</span></h2>
+
+        <div class="testimonial-wrapper">
+          <div class="testimonial-box mySwiper">
+            <div class="testimonial-content swiper-wrapper">
+              <div class="testimonial-slide swiper-slide">
+                <img src="images/test.jpg" alt="" />
+                <h3>No Experiance</h3>
+                <p>No past working Experiance</p>
+              </div>
+              <div class="testimonial-slide swiper-slide">
+                <img src="images/test.jpg" alt="" />
+                <h3>No Experiance</h3>
+                <p>No past working Experiance</p>
+              </div>
+              <div class="testimonial-slide swiper-slide">
+                <img src="images/test.jpg" alt="" />
+                <h3>No Experiance</h3>
+                <p>No past working Experiance</p>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------- -->
+
+    <!-- Contact section -->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- --------------------------------------------- -->
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; <span class="year">2023</span> by Ritesh Thakare</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- --------------------------------------------- -->
+
+    <!-- swiper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- types.js -->
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+  </body>
+</html>
